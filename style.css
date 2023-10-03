@@ -1,0 +1,74 @@
+body{
+    background: #61892F;
+    line-height: 38px;
+}
+p{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 25px;
+    color: #6B6E70;
+    text-indent: 40px;
+}
+
+ol{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 20px;
+    color: #6B6E70;
+}
+
+ul{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 20px;
+    color: #6B6E70;
+}
+h1{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-feature-settings: "smcp", "zero";
+    color: #86C232;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-feature-settings: "smcp", "zero";
+    color: #86C232;
+    font-size: 30px;
+}
+.content{
+    background: #61892F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border-radius: 30px;
+}
+.content-right{
+    background: #222629;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.8)
+}
+.content-left{
+    background: #222629;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.8)
+}
+
+.mycont{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#contimg{
+    width: 100px;
+    height: 100px;
+}
+.mycont :hover{
+    -webkit-filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));
+    filter: drop-shadow(3px 5px 5px rgba(0,0,0,0.5));
+}
+img{
+    height: 500px;
+}
